@@ -1,0 +1,7 @@
+D:\HTL-Kaindorf\Schuljahr_2019-2020\ALDA\square-finder\SquareFinder\SquareFinder\bin\Debug\SquareFinder.exe.config
+D:\HTL-Kaindorf\Schuljahr_2019-2020\ALDA\square-finder\SquareFinder\SquareFinder\bin\Debug\SquareFinder.exe
+D:\HTL-Kaindorf\Schuljahr_2019-2020\ALDA\square-finder\SquareFinder\SquareFinder\bin\Debug\SquareFinder.pdb
+D:\HTL-Kaindorf\Schuljahr_2019-2020\ALDA\square-finder\SquareFinder\SquareFinder\obj\Debug\SquareFinder.csprojAssemblyReference.cache
+D:\HTL-Kaindorf\Schuljahr_2019-2020\ALDA\square-finder\SquareFinder\SquareFinder\obj\Debug\SquareFinder.csproj.CoreCompileInputs.cache
+D:\HTL-Kaindorf\Schuljahr_2019-2020\ALDA\square-finder\SquareFinder\SquareFinder\obj\Debug\SquareFinder.exe
+D:\HTL-Kaindorf\Schuljahr_2019-2020\ALDA\square-finder\SquareFinder\SquareFinder\obj\Debug\SquareFinder.pdb
