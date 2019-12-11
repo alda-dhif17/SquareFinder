@@ -53,6 +53,21 @@ def gen_points(a):
 def find_point(ps, x, y):
     return list(filter(lambda p: p.x == x and p.y == y, ps))[0]
 
+def step(a, x, y, ox, oy, n):
+    x -= 1
+    y -= 1
+    
+    for tx in range(ox, x+1):
+        if a[oy][tx] != n or a[y][tx] != n:
+            return False
+        # print('(%d, %d) | (%d, %d)' % (tx, oy, tx, y))
+    # print('='*32)
+    for ty in range(oy, y+1):
+        if a[ty][ox] != n or a[ty][x] != n:
+            return False
+        # print('(%d, %d) | (%d, %d)' % (ox, ty, x, ty))
+    return True
+
 def find_square(a, ox, oy):
     x, y = ox, oy
     n = a[y][x]
@@ -61,22 +76,15 @@ def find_square(a, ox, oy):
         x += 1
         y += 1
         l += 1
+
+    print(ox, oy, l)
+    print('='*32)
     
-    while True:
+    while l > 0 and not step(a, x, y, ox, oy, l):
+        print(x, y, l)
         x -= 1
         y -= 1
-        
-        for tx in range(ox, x+1):
-            if a[oy][tx] != n or a[y][tx] != n:
-                continue
-            print(tx)
-        print('='*32)
-        for ty in range(oy, y+1):
-            if a[ty][ox] != n and a[ty][x] != n:
-                continue
-            print(ty)
-        
-        break
+        l -= 1
     
     return l
 
